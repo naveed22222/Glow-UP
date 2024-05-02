@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Glow Up</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="bootstrap/js/Jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.css">
+        <style>
+            .card:hover{
+                box-shadow: -4px 2px 20px -3px rgb(188, 141, 38);
+                transition: .2s ease-in-out;
+            }
+            .inc{
+                width: 30px;
+                height: 30px; 
+                color: rgb(188, 141, 38); 
+                border: none;
+                border-radius: 4px;
+                opacity: 0.8;
+                box-shadow: 1px 1px 2px 2px;;
+                outline: none;
+            }
+            .inc:hover{
+                opacity: 1;
+            }
+        </style>
+    </head>
+<body>
+    <!-- nav bar code start -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+        <div class="container-fluid">
+        <a class="navbar-brand text-light" href="Home.html"><img src="logo/glo.png" class="img-fluid"></a>
+        <!-- nav bar toggle icon for small screen -->
+        <button class="navbar-toggler navbar-light bg-light" data-toggle="collapse" data-target="#collapse">
+            <span class="navbar-toggler-icon navbar-light "></span>
+        </button>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ml-lg-5 mr-lg-2 left"><a href="Home.html" class="nav-link active">HOME</a></li>
+                    <li class="nav-item mr-lg-2 dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CATEGORY</a>
+                        <div class="dropdown-menu">
+                        <a href="Makeup.html" class="dropdown-item">Make-Up Products</a>
+                        <a href="sunblock.html" class="dropdown-item">Moisturizers / SunBloks</a>
+                        <a href="hair.html" class="dropdown-item">Hair Treatment products</a>
+                        <a href="ficial.html" class="dropdown-item">Ficial Products</a>
+                        <a href="Skincare.html" class="dropdown-item">Skincare Products</a>
+                        <a href="Skintone.html" class="dropdown-item">Skin tone Perfector</a>
+                        <a href="perfume.html" class="dropdown-item">perfume & deodorant</a>
+                        <a href="#" class="dropdown-item disabled">Personal Products</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-lg-2"><a href="Shop-all.html" class="nav-link">SHOP ALL</a></li>
+                    <li class="nav-item mr-lg-2"><a href="About.html" class="nav-link">ABOUT </a></li>
+                    <li class="nav-item mr-lg-2"><a href="Contact.html" class="nav-link">CONTACT</a></li>
+                </ul>
+                <form action="" class="form-inline collapse" id="search">
+                    <input type="search" class="form-control mr-sm-2" placeholder="Search">
+                </form>
+                <span>
+                    <a data-toggle="collapse" href="#search">
+                         <i class="fas1 fas fa-search m-3"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="Login.html"><i class="far1 far fa-user m-3"></i></a>
+                </span>
+                <span>
+                    <a href="Cart.html"><i class="fas1 fas fa-shopping-cart m-3"></i></a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav bar Ends -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" >
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="about/banner.jpg" class="d-block w-100" alt="Faq Banner">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h5 class="text-center mt-2 mt-md-5 mb-2 mb-md-5" style="text-decoration:overline; font-family: 'Times New Roman', Times, serif; font-weight: bold; color: rgb(188, 141, 38);">
+           FICIAL PRODUCTS</h5>
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block">
+                <h4>CATEGORY</h4>
+                <ul type="none" class="mt-3">
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="Makeup.html">Make-Up Products</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="sunblock.html">Moisturizers / SunBloks</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="hair.html">Hair Treatment products</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="ficial.html">Ficial Products</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="Skincare.html">Skincare Products</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="Skintone.html">Skin Tone Perfector</a></li>
+                    <li class="mt-2 mb-3 li-hover"><a class="li-link" href="perfume.html">Perfume & Deodorant</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-9">
+                <div class="row text-justify">
+                    <div class="col-12 col-sm-4 mt-2 p-2">
+                        <div class="card" style="border: none;">
+                            <img src="Products/skin care/skin care.jpg" class="img-card card-img-top" alt="Product Images">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: rgb(188, 141, 38);">Brightening Cream</h4>
+                                <div>
+                                <p class="card-text pro-hover">Glow Up ZUII ORGANIC BASE (13ml) made with only organic products. It's not harmful for you skin.</p> 
+                                <h5 class="card-text" style="font-family: 'Times New Roman', Times, serif;">RS. 450/-</h5>
+                                </div>
+                                <a class="card-link btn btn-block btn-warning mt-2" href="#" data-toggle="modal" data-target="#modalid" style="outline: none; font-family: volkhov, serif;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 mt-2 p-2">
+                        <div class="card" style="border: none;">
+                            <img src="Products/skin care/skin care001.jpg" class="img-card card-img-top" alt="Product Images">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: rgb(188, 141, 38);">Cleanser</h4>
+                                <div>
+                                <p class="card-text pro-hover">Glow Up ZUII ORGANIC BASE (13ml) made with only organic products. It's not harmful for you skin.</p> 
+                                <h5 class="card-text" style="font-family: 'Times New Roman', Times, serif;">RS. 300/-</h5>
+                                </div>
+                                <a class="card-link btn btn-block btn-warning mt-2" href="#" data-toggle="modal" data-target="#modalid" style="outline: none; font-family: volkhov, serif;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 mt-2 p-2">
+                        <div class="card" style="border: none;">
+                            <img src="Products/skin care/skin care002.jpg" class="img-card card-img-top" alt="Product Images">
+                            <div class="card-body">
+                                <h4 class="card-title" style="color: rgb(188, 141, 38);">Water GEl</h4>
+                                <div>
+                                <p class="card-text pro-hover">Glow Up ZUII ORGANIC BASE (13ml) made with only organic products. It's not harmful for you skin.</p> 
+                                <h5 class="card-text" style="font-family: 'Times New Roman', Times, serif;">RS. 600/-</h5>
+                                </div>
+                                <a class="card-link btn btn-block btn-warning mt-2" href="#" data-toggle="modal" data-target="#modalid" style="outline: none; font-family: volkhov, serif;">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- next row start -->
+        <div class="row text-justify">
+            <!-- Sun block products -->
+            
+            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                <div class="card" style="border: none;">
+                    <img src="Products/skin care/skin care008.jpg" class="img-card card-img-top" alt="Product Images">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: rgb(188, 141, 38);">Black Tea Mask</h4>
+                        <div>
+                        <p class="card-text pro-hover">Glow Up ZUII ORGANIC BASE (13ml) made with only organic products. It's not harmful for you skin.</p> 
+                        <h5 class="card-text" style="font-family: 'Times New Roman', Times, serif;">RS. 400/-</h5>
+                        </div>
+                        <a class="card-link btn btn-block btn-warning mt-2" href="#" data-toggle="modal" data-target="#modalid" style="outline: none; font-family: volkhov, serif;">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                <div class="card" style="border: none;">
+                    <img src="Products/skin care/skin care009.jpg" class="img-card card-img-top" alt="Product Images">
+                    <div class="card-body">
+                        <h4 class="card-title" style="color: rgb(188, 141, 38);">Black Mask</h4>
+                        <div>
+                        <p class="card-text pro-hover">Glow Up ZUII ORGANIC BASE (13ml) made with only organic products. It's not harmful for you skin.</p> 
+                        <h5 class="card-text" style="font-family: 'Times New Roman', Times, serif;">RS. 350/-</h5>
+                        </div>
+                        <a class="card-link btn btn-block btn-warning mt-2" href="#" data-toggle="modal" data-target="#modalid" style="outline: none; font-family: volkhov, serif;">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- sun block products end -->
+        </div>
+    </div>
+</div>    
+
+    <!-- footer Start -->
+<div class="container-fluid bg-dark text-light mt-3 mt-md-5 pt-5 pb-3" style="font-family:Arial, Helvetica, sans-serif; letter-spacing: 1px;">
+    <div class="row">
+        <div class="col-md-3">
+            <div>
+                <a href="Home.html"><img src="logo/glo.png" alt="Logo" class="mb-3 img-fluid"></a>
+            </div>
+            <div>
+                <i class="fab fa-facebook-square mt-2 mr-2"></i>
+                <i class="fab fa-instagram-square mt-2 mr-2"></i>
+                <i class="fab fa-twitter-square mt-2 mr-2"></i>
+                <i class="fab fa-youtube-square mt-2 mr-2"></i>
+                <i class="fab fa-linkedin mt-2 mr-2"></i>    
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h5 style="color: white" class="mt-4 mt-md-3">Sitemap</h5>
+            <hr style="background-color: grey;width: 90%;">
+            <div class="row">
+                <div class="col-6">
+                    <ul type="none">
+                        <li><a class="foot-link" href="Home.html">Home</a></li>
+                        <li><a class="foot-link" href="Shop-all.html">Shop All</a></li>
+                        <li><a class="foot-link" href="Before-After.html">Before & After</a></li>
+                        <li><a class="foot-link" href="About.html">About</a></li>
+                        <li><a class="foot-link" href="impact.html">Our Impact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul type="none">
+                        <li><a class="foot-link" href="Contact.html">Contact</a></li>
+                        <li><a class="foot-link" href="Faq.html">FAQ</a></li>
+                        <li><a class="foot-link" href="Privacy.html">Privacy Policy</a></li>
+                        <li><a class="foot-link" href="Shipping.html">Shipping</a></li>
+                        <li><a class="foot-link" href="Shiping.html">Return</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h5 class="mt-4 mt-md-3">Your Account</h5>
+            <hr style="background-color: grey;width: 90%;">
+            <ul type="none">
+                <li><a class="foot-link" href="Cart.html">Cart</a></li>
+                <li><a class="foot-link" href="Login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+        <hr style="background-color: gray;" class="mt-2 mt-md-3">
+        <p class="text-center copy_done" style="color: gray;">Copyright <i class="far fa-copyright"></i> 2021 | <a href="Home.html" class="right-id">GLOW UP</a>. All rights reserved.</p>
+</div>
+<!-- footer End -->
+
+
+    <!-- Model Box  -->
+    <div class="modal fade" tabindex="-1" id="modalid">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="product-name mt-1 h3" style="font-family: 'Times New Roman', Times, serif; color: rgb(188, 141, 38);"></h4>
+                    <button type="button" class="close mr-1" data-dismiss="modal" aria-label="Close" style="outline: none;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- col img -->
+                            <div class="col-md-5">
+                                            <img src="" width="100%" height="100%" class="modal-img res-img" alt="">
+                            </div>
+                            <!-- col 2 description -->
+                            <div class="col-md-7">
+                                <h4 class="modal-title font-weight-light" style="letter-spacing: 0.15em; color: rgb(188, 141, 38);">Description</h4>
+                                <hr>
+                                <p class="product-des pro-hover res-p" style="color: rgb(110,110,110); text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-size: 15px;"></p>
+                                <hr>
+                                <p>Review:&nbsp;
+                                    <i class="fas fa-star star" style="font-size:13px; color: #FDCC0D;"></i>
+                                    <i class="fas fa-star star" style="font-size:13px; color: #FDCC0D;"></i>
+                                    <i class="fas fa-star star" style="font-size:13px; color: #FDCC0D;"></i>
+                                    <i class="fas fa-star star" style="font-size:13px; color: #FDCC0D;"></i>
+                                    <i class="fas fa-star star" style="font-size:13px; color: #FDCC0D;"></i>
+                                </p>
+                                <hr>
+                                <h5 class="p-price" style="font-family: 'Times New Roman', Times, serif;"></h5>
+                                <hr>
+                                <div>
+                                    <label for="" class="mr-2" style="color: rgb(188, 141, 38); font-family: 'Times New Roman', Times, serif; letter-spacing: 1px   ;">Quantity: </label>
+                                    <button onclick="dec()" class="inc"><i class="fas fa-minus"></i></button>
+                                    <label for="" id="root" style="margin: 0px 10px; font-size: 20px; font-family: 'Times New Roman', Times, serif;"></label>
+                                    <button onclick="inc()" class="inc"><i class="fas fa-plus"></i></button>
+                                </div>
+                                <hr>
+                                <h5  style="color: rgb(188, 141, 38); text-decoration: none;font-family: Arial, Helvetica, sans-serif;">Ingredients:</h5>
+                                <hr>
+                                <p style="color: rgb(110,110,110); text-decoration: none;font-family: Arial, Helvetica, sans-serif;font-size: 15px;">We Use Only Organic & Nature base Products</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-sm-6 m">
+                                <a href="" data-target="#add-cart" data-toggle="modal" class="btn btn-dark btn-block pt-md-2 pb-md-2" style="font-family: volkhov, serif; letter-spacing: 2px;">ADD CART</a>
+                            </div>
+                            <div class="col-sm-6 res-btn">
+                                <a href="shop_btn.html" target="_blank" class="btn btn-warning btn-block pt-md-2 pb-md-2" style="font-family: volkhov, serif; letter-spacing: 2px;">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model BOx End -->
+
+    <!-- Add cart Modal -->
+    <div class="modal fade" tabindex="-1" id="add-cart">
+        <div class="modal-dialog" style="box-shadow: 3px 2px 20px -2px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="mt-1 h4" style="font-family: 'Times New Roman', Times, serif; color: rgb(188, 141, 38);">ADD CART</h4>
+                    <button type="button" class="close mr-1" data-dismiss="modal" aria-label="Close" style="outline: none;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Your product added in your cart <span class="text-success">successfully!</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add cart Modal End-->
+      
+
+<!-- bootstrap file of js & jquery file -->
+
+<script>
+    $(document).ready(function(){
+        $(".card-link").click(function(){
+            $(".modal-img").attr("src",$(this).parent().siblings().attr("Src"));
+            $(".product-name").text($(this).siblings("h4").text());
+            $(".product-des").text($(this).siblings("div").find("p").text());
+            $(".p-price").text($(this).siblings("div").find("h5").text());
+        });
+        
+    });
+    var data=1;
+        document.getElementById("root").innerHTML=data;
+        function dec(){
+            
+            if(data<=1){
+                alert("You Can select minimum 1 item!");
+            }
+            else{
+                data=data-1;
+                document.getElementById("root").innerHTML=data;
+            }
+        }
+        function inc(){
+            if(data>=5){
+                alert("You Can select maximum 5 item!");
+            }
+            else{
+                data=data+1;
+                document.getElementById("root").innerHTML=data;
+            }
+        }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.center{
+    margin: auto;
+}
+.nav-link{
+    letter-spacing:1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: 0.2s;
+    transition-delay: 0.5ms;
+}
+.nav-link:hover,
+.nav-link.active{
+    color:rgb(188, 141, 38);
+}
+.dropdown-menu{
+    width: 250px;
+    opacity: 1;
+}
+.dropdown-item{
+    color: rgb(75,75,75 );
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    transition: 0.2s;
+    transition-delay: 0.5ms;
+}
+.dropdown-item:hover{
+    color: rgb(188, 141, 38);
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .nav-link{
+        letter-spacing: 0.1em;
+        color: white;
+        font-size: 12px;
+        transition: 0.2s;
+        transition-delay: 0.5ms;
+    }
+    .nav-link:hover,
+    .nav-link.active{
+        color:rgb(188, 141, 38);
+        text-decoration: overline;
+    }
+    .dropdown-menu{
+        width: 200px;
+        opacity: 0.9;
+    }
+    .dropdown-item{
+        color: gray;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px;
+        transition: 0.2s;
+        transition-delay: 0.5ms;
+    }
+    .dropdown-item:hover{
+        color: rgb(188, 141, 38);
+        background-color: transparent;
+    }
+}
+/* .left{
+    margin-left: 50px;
+} */
+@media (min-width:660px){
+    .img-fluid{
+        width: 165px;
+    }
+}
+@media (max-width:710px){
+    .img-fluid{
+        width: 100px;
+    }
+}
+@media(max-width:710px){
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 22px;
+    }
+}
+.shop_btn1{
+    width: 220px;
+    padding: 15px 10px;
+    background-color: rgb(188, 141, 38);
+    color: black;
+    opacity: 0.7;
+    font-size: 18px;
+    font-family: volkhov, serif;
+}
+.shop_btn1:hover{
+    opacity: 0.9;
+    color: black;
+}
+.slider_heading{
+    font-family: Volkhov, serif;
+    font-weight: bold;
+    color:black;
+    letter-spacing: 6px;
+}
+.slider-p{
+    color: black;
+    letter-spacing: 2px;
+    font-family: volkhov, serif;
+    line-height: 30px;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+@media (max-width:1280px){
+    .slider_heading{
+        font-family: Volkhov, serif;
+        font-size: 22px;
+        font-weight: bold;
+        color:black;
+        letter-spacing: 2px;
+    }
+    .slider-p{
+        font-size: 12px;
+        color: black;
+        letter-spacing: 2px;
+        font-family: volkhov, serif;
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+}
+@media (max-width:962px){
+.shop_btn1{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: rgb(188, 141, 38)c;
+    color: black;
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: volkhov, serif;
+}
+.shop_btn1:hover{
+    opacity: 0.9;
+    color: black;
+}
+}
+.para{
+    letter-spacing: 4px;
+    line-height: 66px;
+    /* font-weight: bold; */
+}
+@media (max-width:768px) {
+    .para{
+        font-size: 15px;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+}
+@media (max-width:768px) {
+    .p1{
+        font-size: 11px;
+        
+    }
+    .tick{
+        width: 10px;
+    }
+}
+.mis-btn{
+    width: 220px;
+    padding: 12px 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    font-size: 18px;
+    font-family: volkhov, serif;
+}
+.mis-btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+@media (max-width:962px){
+    .mis-btn{
+        width: 150px;
+        padding: 10px 10px;
+        background-color: #000;
+        color: white;
+        opacity: 0.7;
+        font-size: 16px;
+        font-family: volkhov, serif;
+    }
+    .mis-btn:hover{
+        opacity: 0.9;
+        color: white;
+    }
+    }
+    .fas1{
+        color: white;
+        font-size: 26px;
+    }
+    .fas1:hover{
+        color: rgb(188, 141, 38);
+    }
+    .far1{
+        color: white;
+        font-size: 26px; 
+    }
+    .far1:hover{
+        color: rgb(188, 141, 38);
+    }
+    .bg-color{
+        background-color: #eee;
+    }
+    .bg-color1{
+        background-color: gray;
+    }
+    .star{
+        color: goldenrod;
+        font-size: 20px; 
+    }
+    @media(max-width:768px){
+        #review{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+    @media(max-width:512px){
+        .saying{
+            font-size: 26px;
+        }
+    }
+   
+   .rew-2{
+       background-color: white;
+       margin-bottom: 20px;
+   }
+   .fab{
+       font-size: 40px;
+       color: gray;
+   }
+   .fab:hover{
+       color: rgb(188, 141, 38);
+   }
+   @media(max-width:1090px){
+    .fab{
+        font-size: 35px;
+        color: gray;
+    }
+    .fab:hover{
+        color: rgb(188, 141, 38);
+    }
+   }
+   .foot-link{
+       color: white;
+       text-decoration: none;
+       line-height: 3em;
+   }
+   .foot-link:hover{
+        color: rgb(188, 141, 38);
+        text-decoration: none;
+   }
+   .right-id{
+       color: gray;
+       text-decoration: none;
+   }
+   .right-id:hover{
+       color: rgb(188, 141, 38);
+       text-decoration: none;
+   }
+   @media(max-width:512px){
+    .copy_done{
+        font-size: 12px;
+    }
+}
+.pro-hover{
+    color: rgb(110,110,110);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.pro-hover:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(188, 141, 38);
+    text-decoration: none;
+}
+
+ /* Shop all CSS Start */
+ .li-hover{
+     border-bottom: 1px solid rgb(190, 190, 190);
+     padding: 5px;
+ }
+ .li-link{
+ color: rgb(110,110,110);
+ }
+ .li-link:hover{
+     text-decoration: none;
+     color: rgb(188, 141, 38);
+ }
+ .card-title{
+      font-family: 'Times New Roman', Times, serif; 
+ }
+@media(max-width:575px){
+    .res-btn{
+        margin-top: 10px;
+    }
+}
